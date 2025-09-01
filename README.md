@@ -7,17 +7,14 @@ The environment supports running multiple test scenarios, where individual tests
 Features:
 
 APB Master RTL
-
 		Implements APB protocol signals (PADDR, PWRITE, PWDATA, PRDATA, PSEL, PENABLE, PREADY).
 		Supports configurable read and write transfers.
 
 APB Slave Testbench
-
 		Simulates APB slave responses with wait state handling.
 		Implements PSLVERR logic for error response cases.
 
 Flexible Test Selection
-
 		Multiple test features included.
 		Each test can be run individually using +testname without modifying the testbench
 		Suitable for automation and regression flows.
